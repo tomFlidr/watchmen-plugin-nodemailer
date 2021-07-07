@@ -62,6 +62,9 @@ var mailCredentials = {
   auth: {
     user: process.env.WATCHMEN_AUTH_NODEMAILER_USER,
     pass: process.env.WATCHMEN_AUTH_NODEMAILER_PASS
+  },
+  tls: {
+    rejectUnauthorized: false
   }
 };
 
