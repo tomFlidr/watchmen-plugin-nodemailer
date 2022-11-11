@@ -31,7 +31,7 @@ function get_templates(base_directory) {
   files.forEach(function(template_path) {
     var parts      = path.parse(template_path);
     var contents   = fs.readFileSync(template_path);
-    var parent_dir = parts.dir.split(path.sep).pop();
+    var parent_dir = parts.dir.split('/').pop();
 
     if (!(parent_dir in templates)) {
       templates[parent_dir] = {};
