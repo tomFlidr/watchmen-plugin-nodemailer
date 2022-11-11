@@ -1,6 +1,6 @@
 {
   "name": "watchmen-plugin-nodemailer-self-signed-certs",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Notifications via nodemailer for watchmen with self signed certificates.",
   "main": "index.js",
   "repository": {
